@@ -1,52 +1,80 @@
-name: Domain Analytics Bugs
-description: File a bug report for the Domain Analytics Team - https://vault.shopify.io/teams/2446-Domain-Analytics
-labels: ["Bug", "Insights Domain Analytics"]
+name: Program Intake Template
+description: Submit an intake form for a new program to be reviewed by [Engineering Program Management team](https://vault.shopify.io/teams/2621-Engineering-Program-Management-Office-of-CTO/)
+labels: ["Ideas"]
 body:
   - type: markdown
     attributes:
       value: |
-        File bugs, Product/UX/Data enhancements, nice-to-haves, etc.
-  - type: textarea
-    id: actual-behavior
-    attributes:
-      label: Actual Behavior
-      description: Tell us what you observed
-    validations:
-      required: true
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected Behavior
-      description: Tell us what you expected to happen
-    validations:
-      required: true
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to Reproduce
-      description: Tell us how to reproduce the issue
-      placeholder: Steps
-      value: "1. "
-    validations:
-      required: false
+        The fields below are used to populate a Program Brief. Please fill in as much detail as you can in order for the EPM team review and prioritize among other programs in the EPM backlog.
   - type: input
-    id: evidence
+    id: program-name
     attributes:
-      label: Supporting References
-      description: Provide a link to a screen shot, video, page URL, or other document
-      placeholder: link
-      value: "https://"
-    validations:
-      required: false
-  - type: checkboxes
-    id: platform
-    attributes:
-      label: Platform
-      description: Did this occur on web, mobile or mobile web?
-      options:
-        - label: Web
-        - label: Mobile Web
-        - label: iOS
-        - label: Android
+      label: Program Name
+      description: Please provide a Program Name. Avoid covert program names only understandable to those working on the initiative. Programs will be Vault projects or Missions to accommodate existing tooling. 
     validations:
       required: true
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: What can our users or the company do after this goal is achieved? Why should we solve this problem now?
+    validations:
+      required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: When we’re done, what’s now possible? As a company, what do we gain for choosing to invest in this effort over the countless other investments?  
+What can merchants, developers, and Shopify do after this goal is achieved? What is blocking prioritization? Is putting this effort ahead of those items the right tradeoff for the company?
+    validations:
+      required: true
+  - type: textarea
+    id: key-stakeholders
+    attributes:
+      label: Key Stakeholders
+      description: Who are the key stakeholders or main points of contact for this area?
+      validations:
+        required: false
+  - type: checkboxes
+    id: engineering-themes
+    attributes:
+      label: Engineering Themes
+      description: Which of the following Engineering Themes does this program align with?
+      options:
+        - label: We operate an amazing SaaS product for our merchants with best-in-class uptime, performance, scalability, and security
+        - label: We have a culture where developers generate outsized leverage by focusing on simplicity and composability.
+        - label: We launch features focused on the safety of millions of merchants and their customers.
+        - label: We operate a platform that scales to the size of any merchant for millions of merchants.
+        - label: We build and operate delightful developer environments.
+        - label: We use Digital-by-Design as an unfair advantage to recruit world-class engineers and data scientists.
+    validations:
+      required: true
+  - type: textarea
+    id: define-done
+    attributes:
+      label: Definition of Done
+      description: What does DONE look like for this program?
+      validations:
+        required: true
+  - type: input
+    id: success-metrics
+    attributes:
+      label: Success Metrics
+      description: What metrics indicate that you’ve attained the objectives of the program?
+      validations:
+        required: false
+  - type: input
+    id: top-risks
+    attributes:
+      label: Top Risks and Mitigation Plan
+      description: What are the top realistic things that could prevent you from attaining the definition of done, and what’s the plan of action to de-risk them?
+      validations:
+        required: false
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Is there anything else that needs to be changed before this program can be started?
+      validations:
+        required: false
+   
