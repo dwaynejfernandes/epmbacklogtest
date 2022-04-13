@@ -35,9 +35,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: dependencies
+    id: program-deps
     attributes:
       label: Dependencies
       description: Is there anything else that needs to be changed before this program can be started?
-      validations:
-       required: true
+    validations:
+      required: true
