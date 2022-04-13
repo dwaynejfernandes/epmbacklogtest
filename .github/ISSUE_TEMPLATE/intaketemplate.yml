@@ -1,0 +1,52 @@
+name: Domain Analytics Bugs
+description: File a bug report for the Domain Analytics Team - https://vault.shopify.io/teams/2446-Domain-Analytics
+labels: ["Bug", "Insights Domain Analytics"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        File bugs, Product/UX/Data enhancements, nice-to-haves, etc.
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Tell us what you observed
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Tell us what you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Tell us how to reproduce the issue
+      placeholder: Steps
+      value: "1. "
+    validations:
+      required: false
+  - type: input
+    id: evidence
+    attributes:
+      label: Supporting References
+      description: Provide a link to a screen shot, video, page URL, or other document
+      placeholder: link
+      value: "https://"
+    validations:
+      required: false
+  - type: checkboxes
+    id: platform
+    attributes:
+      label: Platform
+      description: Did this occur on web, mobile or mobile web?
+      options:
+        - label: Web
+        - label: Mobile Web
+        - label: iOS
+        - label: Android
+    validations:
+      required: true
