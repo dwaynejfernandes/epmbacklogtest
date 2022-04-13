@@ -20,3 +20,10 @@ body:
       description: What can our users or the company do after this goal is achieved? Why should we solve this problem now?
     validations:
       required: true
+  - type: textarea
+    id: key-stakeholders
+    attributes:
+      label: Key Stakeholders
+      description: Who are the key stakeholders or main points of contact for this area?
+    validations:
+      required: true
