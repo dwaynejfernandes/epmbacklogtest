@@ -34,3 +34,10 @@ body:
       description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
     validations:
       required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Is there anything else that needs to be changed before this program can be started?
+      validations:
+        required: true
