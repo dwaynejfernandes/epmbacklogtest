@@ -20,3 +20,10 @@ body:
       description: What can our users or the company do after this goal is achieved? Why should we solve this problem now?
     validations:
       required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
+    validations:
+      required: true
