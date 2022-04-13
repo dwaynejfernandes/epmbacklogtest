@@ -40,4 +40,4 @@ body:
       label: Dependencies
       description: Is there anything else that needs to be changed before this program can be started?
       validations:
-        required: true
+       required: true
