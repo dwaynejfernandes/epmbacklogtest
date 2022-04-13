@@ -24,9 +24,7 @@ body:
     id: key-stakeholders
     attributes:
       label: Key Stakeholders
-      description: Who are the key stakeholders or main points of contact for this area?
-      validations:
-        required: false      
+      description: Who are the key stakeholders or main points of contact for this area?    
   - type: textarea
     id: objectives
     attributes:
