@@ -13,3 +13,10 @@ body:
       description: Please provide a Program Name. Avoid covert program names only understandable to those working on the initiative. Programs will be Vault projects or Missions to accommodate existing tooling. 
     validations:
       required: true
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: What can our users or the company do after this goal is achieved? Why should we solve this problem now?
+    validations:
+      required: true
