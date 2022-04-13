@@ -27,3 +27,10 @@ body:
       description: Who are the key stakeholders or main points of contact for this area?
     validations:
       required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
+    validations:
+      required: true
