@@ -41,3 +41,17 @@ body:
       description: Is there anything else that needs to be changed before this program can be started?
     validations:
       required: true
+ - type: textarea
+    id: success-metrics
+    attributes:
+      label: Success Metrics
+      description: What metrics indicate that you’ve attained the objectives of the program?
+    validations:
+      required: true
+  - type: textarea
+    id: top-risks
+    attributes:
+      label: Top Risks and Mitigation Plan
+      description: What are the top realistic things that could prevent you from attaining the definition of done, and what’s the plan of action to de-risk them?
+    validations:
+      required: true      
