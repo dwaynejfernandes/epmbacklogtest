@@ -31,11 +31,11 @@ body:
       label: Objectives
       description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
     validations:
-      required: false
+      required: false      
   - type: textarea
-    id: define-done
+    id: dependencies
     attributes:
-      label: Definition of Done
-      description: What does DONE look like for this program?
+      label: Dependencies
+      description: Is there anything else that needs to be changed before this program can be started?
       validations:
-        required: true
+        required: false  
