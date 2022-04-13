@@ -24,8 +24,8 @@ body:
     id: objectives
     attributes:
       label: Objectives
-      description: When we’re done, what’s now possible? As a company, what do we gain for choosing to invest in this effort over the countless other investments?  
-What can merchants, developers, and Shopify do after this goal is achieved? What is blocking prioritization? Is putting this effort ahead of those items the right tradeoff for the company?
+      description: |
+      When we’re done, what’s now possible? What do we gain for choosing to invest in this effort over the countless other investments? What can merchants, developers, and Shopify do after this goal is achieved? What is blocking prioritization? Is putting this effort ahead of those items the right tradeoff for the company?
     validations:
       required: true
   - type: textarea
