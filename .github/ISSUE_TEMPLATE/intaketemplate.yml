@@ -21,23 +21,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: define-done
-    attributes:
-      label: Definition of Done
-      description: What does DONE look like for this program?
-      validations:
-        required: true
-  - type: textarea
     id: objectives
     attributes:
       label: Objectives
       description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
     validations:
       required: false
-  - type: textarea
-    id: key-stakeholders
-    attributes:
-      label: Key Stakeholders
-      description: Who are the key stakeholders or main points of contact for this area?
-      validations:
-        required: false
