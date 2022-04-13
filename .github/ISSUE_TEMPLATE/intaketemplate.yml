@@ -21,6 +21,13 @@ body:
     validations:
       required: true
   - type: textarea
+    id: key-stakeholders
+    attributes:
+      label: Key Stakeholders
+      description: Who are the key stakeholders or main points of contact for this area?
+      validations:
+        required: false      
+  - type: textarea
     id: objectives
     attributes:
       label: Objectives
