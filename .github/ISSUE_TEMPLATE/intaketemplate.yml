@@ -19,6 +19,20 @@ body:
       label: Problem Statement
       description: What can our users or the company do after this goal is achieved? Why should we solve this problem now?
     validations:
+      required: true        
+  - type: checkboxes
+    id: engineering-themes
+    attributes:
+      label: Engineering Themes
+      description: Which of the following Engineering Themes does this program align with?
+      options:
+        - label: We operate an amazing SaaS product for our merchants with best-in-class uptime, performance, scalability, and security
+        - label: We have a culture where developers generate outsized leverage by focusing on simplicity and composability.
+        - label: We launch features focused on the safety of millions of merchants and their customers.
+        - label: We operate a platform that scales to the size of any merchant for millions of merchants.
+        - label: We build and operate delightful developer environments.
+        - label: We use Digital-by-Design as an unfair advantage to recruit world-class engineers and data scientists.
+    validations:
       required: true
   - type: textarea
     id: key-stakeholders
@@ -26,32 +40,32 @@ body:
       label: Key Stakeholders
       description: Who are the key stakeholders or main points of contact for this area?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: objectives
     attributes:
       label: Objectives
       description: When we’re done, what’s now possible? What can merchants, developers, and Shopify do after this goal is achieved?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: program-deps
     attributes:
       label: Dependencies
       description: Is there anything else that needs to be changed before this program can be started?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: success-metrics
     attributes:
       label: Success Metrics
       description: What metrics indicate that you’ve attained the objectives of the program?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: top-risks
     attributes:
       label: Top Risks and Mitigation Plan
       description: What are the top realistic things that could prevent you from attaining the definition of done, and what’s the plan of action to de-risk them?
     validations:
-      required: true
+      required: false
